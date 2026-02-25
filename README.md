@@ -38,3 +38,23 @@ const TARGET_GROUP_EMAIL = 'your-group@your-domain.com';
 const TARGET_DEPARTMENT = 'Operations'; // Must match EXACTLY the Google Directory value (case-sensitive)
 const DOMAIN = 'your-domain.com'; 
 // ---------------------
+```
+## Automation (Triggers)
+To make the group truly "dynamic", you need to run this script automatically.
+1. In the Apps Script editor, go to **Triggers** (the clock icon on the left).
+2. Click **Add Trigger** (bottom right).
+3. Choose the function syncDynamicGroup.
+4. Select event source: **Time-driven**.
+5. Select a frequency (e.g., **Day timer** -> Midnight to 1 AM, or **Hour timer**).
+
+## Read the Full Article
+For a complete step-by-step tutorial and the philosophy behind this script, read my full article on Medium: [Link](https://medium.com/@abdelmfossa/automatiser-vos-groupes-dynamiques-dans-google-workspace-meme-sans-licence-enterprise-avec-apps-script-cc7d36f35ca8)
+
+## Author
+* **Abdel Aziz Mfossa**
+* Consultant Cloud & Google Workspace
+
+Feel free to connect or reach out if you need help with Google Workspace automation!
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
